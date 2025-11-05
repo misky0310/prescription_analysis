@@ -115,7 +115,8 @@ def predict_batch(image_folder, model, label_classes, device, transform, output_
         return []
     
     # Sort files naturally
-    image_files.sort(key=lambda x: int(''.join(filter(str.isdigit, x))) if any(c.isdigit() for c in x) else x)
+    image_files.sort(key=lambda x: ''.join(filter(str.isdigit, x)).zfill(4))
+
     
     print(f'📊 Found {len(image_files)} images to process\n')
     

@@ -1,0 +1,4 @@
+image,predicted_medicine,confidence,top_1,top_1_conf,top_2,top_2_conf,top_3,top_3_conf,status
+img.jpg,Metsina,16.63%,Metsina,16.63%,Montene,15.57%,Candinil,11.41%,success
+0.png,Aceta,87.68%,Aceta,87.68%,Ace,4.19%,Az,2.46%,success
+48.png,Atrizin,48.85%,Atrizin,48.85%,Opton,7.89%,Napa,5.90%,success
